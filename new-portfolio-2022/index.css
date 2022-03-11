@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#particles-js{
+  font-family: 'Dancing Script', cursive;
+  width: 100vw;
+  height: 100vh;
+  font-size: 65px;
+ 
+  background: #091f35; 
+  overflow: hidden;
+ 
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+  text-align: center;
+}
+#particles-js p {
+
+
+text-align: center;
+
+
+}
+#particles-js button{
+  
+}
+
+#button-1{
+  color: antiquewhite;
+  text-align: center;
+
+ 
+  font-size: 50px;
+  background-color: transparent;
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  padding: 5px;
+  transition: transform 1s;
+  
+}
+#button-1:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.name-span{
+  color:#DC143C;
+}
+button i{
+  transition: transform 1s;
+}
+
+#button-1:hover i{
+  transform: rotate(90deg);
+}
+
+.intro-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
